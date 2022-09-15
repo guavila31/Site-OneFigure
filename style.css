@@ -1,0 +1,28 @@
+.inicio {
+    margin-top: 1rem;
+}
+
+.carousel-item img {
+    width: 50rem;
+    object-fit: cover;
+    height: 25rem;
+}
+
+.btn-dark {
+    display: flex;
+    justify-content: center;
+}
+.anuncio{
+    justify-content: space-around;
+}
+figure{
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+}
+.titulo{
+    font-size: medium;
+}
+.descricao{
+    font-size: small;
+}
