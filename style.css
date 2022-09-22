@@ -1,5 +1,17 @@
+body{
+    background-image: url(img/bg-black.jpg);
+    background-position: center;
+    background-repeat:repeat-y;
+    background-color: #212121;
+}
 .inicio {
     margin-top: 1rem;
+    
+}
+.principal{
+    background-color: #f1f1f1;
+    border-radius: 15px;
+        
 }
 
 .carousel-item img {
@@ -14,6 +26,9 @@
 }
 .anuncio{
     justify-content: space-around;
+}
+h1{
+    color: #212121;
 }
 figure{
     width: 40%;

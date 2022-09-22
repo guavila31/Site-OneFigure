@@ -4,19 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Loja Brinquedo</title>
+    <title>One Figure</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="p-3 text-bg-dark">
+    <header class="p-3">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
+                <img class="bi me-2" width="40" height="40"
+                    src="https://i.pinimg.com/originals/3f/36/fc/3f36fcdd50dcbfd4a15080c52743a596.png">
+                </img>
             </a>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -26,13 +26,13 @@
             </ul>
 
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
-                    aria-label="Search">
+                <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Pesquisar"
+                    aria-label="Pesquisar">
             </form>
 
             <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2">Login</button>
-                <button type="button" class="btn btn-warning">Sign-up</button>
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
             </div>
         </div>
     </header>
@@ -42,25 +42,23 @@
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                            aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
+                            class="active" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://wallpaperaccess.com/full/191591.jpg" class="d-block w-100"
-                                alt="...">
+                        <div class="carousel-item">
+                            <img src="https://wallpaperaccess.com/full/191591.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>MARVEL</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sunt praesentium
                                     aperiam nesciunt porro necessitatibus.</p>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="https://images4.alphacoders.com/616/616945.png"
-                                class="d-block w-100" alt="...">
+                        <div class="carousel-item active">
+                            <img src="https://images4.alphacoders.com/616/616945.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>ANIME</h5>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum illum unde quam,
@@ -68,8 +66,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://images2.alphacoders.com/602/602604.jpg"
-                                class="d-block w-100" alt="...">
+                            <img src="https://images2.alphacoders.com/602/602604.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>GAMES</h5>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit suscipit, iure
@@ -90,21 +87,98 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 mt-3 mb-3"style="text-align: center;">
-                <h1>Lista de Figure</h1>
+        <div class="row justify-content-center principal mt-5">
+            <div class="col-12 mt-3 mb-3" style="text-align: center;">
+                <div class="shadow-lg mb-5" style="background-color:#0e0e0e; border-radius: 15px;">
+                    <img src="img/Onefigure-bg.png" style="width: 25%;">
+                </div>
             </div>
-            <div class="col-12 col-md-3 mt-2">
-                <div class="card shadow p-3">
+            <div class="col-12 col-md-3 offset-md-1 mt-2 mb-3">
+                <div class="card">
                     <img src="https://www.fantoy.com.br/media/catalog/product/cache/5070b15b05522f191912dd31c57262ab/l/u/luffy-min_2.jpg"
                         class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title" style="font-size: 1rem;">MONKEY D. LUFFY (WT100 COMMEMORATIVE: DAIKAIZOKU
                             HYAKKEI)- FIGUARTSZERO - ONE PIECE - BANDAI</h5>
                         <p class="card-text" style="font-size: 1.5rem;text-align: center; margin: 2rem 0 0 0;"><b
-                                class="text-success">R$ 1.199,00</b></p>
+                                class="text-success">R$ 379,00</b></p>
                         <p class="card-text" style="font-size: .8rem;text-align: center;">Até 12x sem Juros</p>
                         <a href="comprar-1.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 offset-md-1 mt-2 mb-3">
+                <div class="card shadow p-3">
+                    <img src="https://static3.tcdn.com.br/img/img_prod/460977/action_figure_homem_de_ferro_iron_man_mark_v_homem_de_ferro_2_iron_man_2_marvel_escala_1_10_zhong_do_95191_1_d675948b88920f2b5f26a2411d43fb32.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 1rem;">Action Figure Homem de Ferro Iron Man Mark 5 V :
+                            Vingadores Avengers Escala 1/10 Marvel Disney - ZD Toys
+                        </h5>
+                        <p class="card-text" style="font-size: 1.5rem;text-align: center; margin: 2rem 0 0 0;"><b
+                                class="text-success">R$ 399,00</b></p>
+                        <p class="card-text" style="font-size: .8rem;text-align: center;">Até 12x sem Juros</p>
+                        <a href="comprar-2.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 offset-md-1 mt-2 mb-3">
+                <div class="card shadow p-3">
+                    <img src="https://static3.tcdn.com.br/img/img_prod/460977/action_figure_thor_vingadores_avengers_marvel_kai_escala_1_6_play_arts_ev_80459_1_d2e678e9af9d514d4eba54e94a233574.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 1rem;">Action Figure Thor: Vingadores Avengers Marvel
+                            Escala 1/6 Play Arts Kai
+                        </h5>
+                        <p class="card-text" style="font-size: 1.5rem;text-align: center; margin: 2rem 0 0 0;"><b
+                                class="text-success">R$ 449,95</b></p>
+                        <p class="card-text" style="font-size: .8rem;text-align: center;">Até 12x sem Juros</p>
+                        <a href="comprar-3.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div>
+            </div>
+                <div class="col-12 col-md-3 offset-md-1 mt-2 mb-3">
+                    <div class="card shadow p-3">
+                        <img src="https://static3.tcdn.com.br/img/img_prod/460977/action_figure_estatua_batman_vs_coringa_arkham_origens_escala_1_6_estilo_hot_toys_mkp_105903_1_795e10ae394429ca12d6ca1e04c815e8.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 1rem;">Action Figure Estátua Batman Vs Coringa: Arkham
+                                Origens Escala 1/6 Estilo Hot Toys - MKP
+                            </h5>
+                            <p class="card-text" style="font-size: 1.5rem;text-align: center; margin: 2rem 0 0 0;"><b
+                                    class="text-success">R$ 1.199,00</b></p>
+                            <p class="card-text" style="font-size: .8rem;text-align: center;">Até 12x sem Juros</p>
+                            <a href="comprar-4.html" class="btn btn-dark">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-12 col-md-3 offset-md-1 mt-2 mb-3">
+                <div class="card shadow p-3">
+                    <img src="https://static3.tcdn.com.br/img/img_prod/460977/estatua_busto_o_mandaloriano_the_mandalorian_star_wars_18_cm_104099_1_481e3378289066b3cb4d2b83c6420b39.jpeg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 1rem;">Estátua Busto O Mandaloriano The Mandalorian
+                            Star Wars 18 cm
+                        </h5>
+                        <p class="card-text" style="font-size: 1.5rem;text-align: center; margin: 2rem 0 0 0;"><b
+                                class="text-success">R$ 1.199,00</b></p>
+                        <p class="card-text" style="font-size: .8rem;text-align: center;">Até 12x sem Juros</p>
+                        <a href="comprar-5.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 offset-md-1 mt-2 mb-3">
+                <div class="card shadow p-3">
+                    <img src="https://static3.tcdn.com.br/img/img_prod/460977/s_h_figuarts_street_fighter_iv_ryu_bandai_17287_1_20201211172755.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 1rem;">Boneco Ryu: Street Fighter V S.H Figuarts -
+                            Bandai
+                        </h5>
+                        <p class="card-text" style="font-size: 1.5rem;text-align: center; margin: 2rem 0 0 0;"><b
+                                class="text-success">R$ 1.199,00</b></p>
+                        <p class="card-text" style="font-size: .8rem;text-align: center;">Até 12x sem Juros</p>
+                        <a href="comprar-6.html" class="btn btn-dark">Comprar</a>
                     </div>
                 </div>
             </div>
